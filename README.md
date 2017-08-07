@@ -6,10 +6,10 @@ Android brain game that tries to spot Memory Leaks with Neural Network.
 <img src="https://user-images.githubusercontent.com/17238972/29034009-224ecdf2-7b97-11e7-8870-10d82d5487ab.png" width=300 height=500/> <img src="https://user-images.githubusercontent.com/17238972/29034007-22265dfe-7b97-11e7-9a7d-b4cb7899833e.png" width=300 height=500/>
 <br />
 
-# How does it work?
+# How does it work ?
 The game is made of different questions each of them returns a score. All the scores are passed to a neural network (along with age, gender, test time) that computes the final score.
 
-# Why a Neural Network
+# Why a Neural Network ?
 Well first of all I must admit my addiction to Neural Network, second a 20yo that scores 8/11 isn't the same as a 81yo scoring the same result. So we've collected a bunch of train samples on people with known memory issues and people without any, and  then we trained the neural network in order to compute a weighted final score.
 
 # Status
