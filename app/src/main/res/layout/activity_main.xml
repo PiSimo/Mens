@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.pisimo.mens.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+    android:background="#263238"
+
+    >
+
+    <Button
+        android:id="@+id/buttonScores"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#32db64"
+        android:text="SCORES"
+        android:paddingLeft="117dp"
+        android:paddingRight="125dp"
+        android:drawableRight="@drawable/ic_podium2"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAbout" />
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#488aff"
+        android:drawableRight="@drawable/ic_about"
+        android:paddingLeft="127dp"
+        android:paddingRight="127dp"
+        android:text="ABOUT"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSettings" />
+
+    <Button
+        android:id="@+id/buttonTest"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:background="#f53d3d"
+        android:text="TAKE TEST"
+        android:gravity="center"
+        android:paddingLeft="110dp"
+        android:paddingRight="108dp"
+        android:drawableRight="@drawable/ic_arrow"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonScores" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#f4f4f4"
+        android:text="Settings"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:paddingLeft="100dp"
+        android:paddingRight="110dp"
+        android:drawableRight="@drawable/ic_settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="122dp"
+        android:layout_height="112dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintHorizontal_bias="0.506" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="MENS"
+        android:textColor="#fff"
+        android:textSize="27sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.pisimo.mens">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:name="android.support.multidex.MultiDexApplication"
+        tools:targetApi="lollipop">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity6"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity7"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity8"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity9"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TestActivity11"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ScoreActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
