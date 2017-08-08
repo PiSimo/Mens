@@ -14,7 +14,7 @@ Well first of all I must admit my addiction to Neural Network, second a 20yo tha
 
 # Status
 The project is not on the play store yet. <br />Because of some compatibility issues with android 5.0/5.11, and because we are trying to increase the nn accuracy.<br />
-But it works fine on Marshmallow and Nougat, if you want to try the app you can install this <a href="https://github.com/PiSimo/Mens/raw/master/apk/app-flavorRelease-release.apk">apk</a>.<br/>
+But it works fine on Marshmallow and Nougat, if you want to try the app you can install this <a href="https://github.com/PiSimo/Mens/raw/master/apk/mens.apk">apk</a>.<br/>
 
 # Help us
 If you notice errors, or you have an idea to make this project better open a new issue.<br />
