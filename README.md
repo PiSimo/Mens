@@ -13,8 +13,8 @@ The game is made of different questions each of them returns a score. All the sc
 Well first of all I must admit my addiction to Neural Network, second a 20yo that scores 8/11 isn't the same as a 81yo scoring the same result. So we've collected a bunch of train samples on people with known memory issues and people without any, and  then we trained the neural network in order to compute a weighted final score.
 
 # Status
-The project is not on the play store yet. <br />Because of some compatibility issues with android 5.0/5.11, and because we are trying to increase the nn accuracy.<br />
-But it works fine on Marshmallow and Nougat, if you want to try the app you can install this <a href="https://github.com/PiSimo/Mens/raw/master/apk/mens.apk">apk</a>.<br/>
+The project is not on the play store yet.Because of some compatibility issues with android 5.0/5.11, and because we are trying to increase the nn accuracy.<br /> <br />
+Works fine on Marshmallow and Nougat, if you want to try the app you can install this <a href="https://github.com/PiSimo/Mens/raw/master/apk/mens.apk">apk</a> or download it from <a href="https://org-pisimo-mens.it.aptoide.com/?store_name=pisimo&app_id=31254446">aptoide</a>.<br/>
 
 # Help us
 If you notice errors, or you have an idea to make this project better open a new issue.<br />
