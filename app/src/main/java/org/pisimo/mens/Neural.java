@@ -1,4 +1,9 @@
- //Neural Classes:
+/*
+ * Layer of a neural network
+ *
+ * original author Sebastian Gössl
+ * this is not  the original version, in fact train and other unused functions have been removed!
+*/
     class Layer
     {
         //Activation functions
