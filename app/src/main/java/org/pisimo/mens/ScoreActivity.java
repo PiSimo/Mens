@@ -10,10 +10,6 @@ import android.widget.Toast;
 
 import java.util.Date;
 
-
-
-//import android.support.multidex.MultiDexApplication;
-
 import java.io.*;
 
 
