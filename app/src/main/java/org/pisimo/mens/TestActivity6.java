@@ -141,7 +141,7 @@ public class TestActivity6 extends AppCompatActivity {
         }
         Collections.shuffle(list); //Random every time different
 
-        //7 icons for grup 8th intruder
+        //7 icons for group 8th intruder
         String[] icons = new String[n];
         for(int i = 0;i != n;i++){
             icons[i] = list.get(i);
